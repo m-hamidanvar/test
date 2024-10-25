@@ -22,6 +22,7 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
+from xgboost import XGBClassifier
 
 #%%
 df = pd.read_csv('D:\Learning\ML\Datasets\diabetes_dataset.csv')
