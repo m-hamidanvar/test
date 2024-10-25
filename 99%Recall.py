@@ -4,6 +4,7 @@ Created on Mon Oct 21 11:47:48 2024
 
 @author: Mary
 """
+#
 
 import pandas as pd
 
@@ -15,6 +16,9 @@ from scipy.stats import shapiro, mannwhitneyu, chi2_contingency, chi2
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import KBinsDiscretizer
+from sklearn.pipeline import Pipeline
+from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
